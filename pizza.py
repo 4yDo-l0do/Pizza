@@ -65,19 +65,19 @@ def log(message: str = None):
 @log('✔ Приготовили за {} мин!')
 def bake(pizza):
     """Готовит пиццу"""
-    return
+    return pizza
 
 
 @log('🛵 Доставили за {} мин!')
 def deliver(pizza):
     """Доставляет пиццу"""
-    return
+    return pizza
 
 
 @log('🏠 Забрали за {} мин!')
 def pick_up(pizza):
     """Забирает пиццу"""
-    return
+    return pizza
 
 
 class BasePizza:
